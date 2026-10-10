@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061329">
+  <meta name="description" content="Explore IntellEducare's school and board preparation, competitive exam pathways, structured practice and academic guidance.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="IntellEducare — Shaping Brighter Futures">
+  <meta property="og:description" content="From school to success — complete academic guidance for every learner.">
+  <title>IntellEducare — Shaping Brighter Futures</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+  <script type="module" src="assets/hero-3d.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="IntellEducare homepage">
+        <img src="assets/brand-mark.svg" width="46" height="46" alt="" aria-hidden="true">
+        <span class="brand-copy"><strong>Intell<span>Educare</span></strong><small>LEARN · PREPARE · ACHIEVE</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="primaryNav" aria-expanded="false" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="primaryNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About Us</a>
+        <a class="nav-link" href="#programs">Programs</a>
+        <a class="nav-link" href="#approach">Our Approach</a>
+        <a class="nav-link" href="#results">Student Success</a>
+        <a class="nav-link" href="#centres">Centres</a>
+        <a class="nav-link" href="#faq">FAQs</a>
+        <a class="nav-mobile-cta" href="#admissions">Book Counselling <span aria-hidden="true">↗</span></a>
+      </nav>
+      <a class="button button-orange header-cta" href="#admissions">Book Counselling <span aria-hidden="true">→</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="hero-halo hero-halo-one" aria-hidden="true"></div>
+      <div class="hero-halo hero-halo-two" aria-hidden="true"></div>
+      <div class="hero-art" id="heroArt" aria-label="Immersive view of students exploring a futuristic learning world">
+        <div class="hero-art-glow" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit-a" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit-b" aria-hidden="true"></div>
+        <picture class="hero-picture">
+          <source media="(max-width: 700px)" srcset="assets/students-hero-mobile.jpg" width="1064" height="798">
+          <img class="hero-students" src="assets/students-hero-wide.jpg" alt="A schoolboy and schoolgirl in front of a glowing holographic Earth at a modern learning campus" fetchpriority="high" width="1971" height="798">
+        </picture>
+        <canvas class="hero-3d-canvas" id="hero3dCanvas" aria-hidden="true"></canvas>
+        <div class="hero-depth-vignette" aria-hidden="true"></div>
+        <div class="hero-holo-scene" aria-hidden="true">
+          <div class="hero-graduation-cap" aria-hidden="true">
+            <svg viewBox="0 0 240 128" role="presentation">
+              <defs>
+                <linearGradient id="capTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c6f5ff"/><stop offset=".24" stop-color="#2a91ff"/><stop offset=".68" stop-color="#102d77"/><stop offset="1" stop-color="#061733"/></linearGradient>
+                <linearGradient id="capSide" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#287dca"/><stop offset="1" stop-color="#071a42"/></linearGradient>
+                <linearGradient id="capGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0a8"/><stop offset=".48" stop-color="#ffb13f"/><stop offset="1" stop-color="#dd6b12"/></linearGradient>
+              </defs>
+              <path d="M120 15 L225 48 L120 83 L15 48 Z" fill="url(#capTop)" stroke="#8beaff" stroke-width="2.5"/>
+              <path d="M62 65 L120 84 L178 65 L172 93 Q120 120 68 93 Z" fill="url(#capSide)" stroke="#4bd3ff" stroke-width="2"/>
+              <path d="M225 48 C230 64 226 78 216 91" fill="none" stroke="url(#capGold)" stroke-width="3.5" stroke-linecap="round"/>
+              <circle cx="225" cy="48" r="5.5" fill="url(#capGold)" stroke="#fff0a8" stroke-width="1"/>
+              <path d="M216 91 L207 106 M216 91 L221 106 M216 91 L213 110" fill="none" stroke="url(#capGold)" stroke-width="3.5" stroke-linecap="round"/>
+              <ellipse cx="120" cy="113" rx="38" ry="5" fill="#21caff" opacity=".20"/>
+            </svg>
+          </div>
+          <div class="hero-learning-band"><span>LEARN</span><b>•</b><span>EXPLORE</span><b>•</b><span>ACHIEVE</span></div>
+          <div class="hero-brand-beacon"><span class="hero-brand-spark" aria-hidden="true">✦</span><strong>IntellEducare</strong></div>
+          <div class="hero-float-card hero-float-card--school"><span class="hero-float-icon">▤</span><span><strong>School &amp; Boards</strong><small>Class 8–10</small></span></div>
+          <div class="hero-float-card hero-float-card--board"><span class="hero-float-icon">◈</span><span><strong>State Board</strong><small>CBSE / ICSE</small></span></div>
+          <div class="hero-float-card hero-float-card--science"><span class="hero-float-icon">✧</span><span><strong>HSC Science</strong><small>Concepts &amp; practicals</small></span></div>
+          <div class="hero-float-card hero-float-card--exams"><span class="hero-float-icon">⌁</span><span><strong>JEE / NEET</strong><small>Prepare with purpose</small></span></div>
+          <div class="hero-float-card hero-float-card--career"><span class="hero-float-icon">↗</span><span><strong>Career Guidance</strong><small>Choose your next step</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-content-wrap">
+        <div class="hero-copy">
+          <span class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> LEARN WITH PURPOSE</span>
+          <h1 id="hero-title">Shaping <span class="text-orange">Brighter</span> Futures<span class="title-period">.</span></h1>
+          <p class="hero-lead">From school to success — complete academic guidance for every learner.</p>
+          <p class="hero-support">Build strong foundations, practise with intent and move forward with greater confidence.</p>
+          <div class="hero-actions">
+            <a class="button button-orange button-large" href="#programs">Explore Programs <span aria-hidden="true">→</span></a>
+            <a class="button button-glass button-large" href="#approach"><span class="play-icon" aria-hidden="true">▶</span> Our Approach</a>
+          </div>
+          <div class="hero-proof" aria-label="Learning pathways">
+            <div class="proof-icons" aria-hidden="true"><span>✦</span><span>▤</span><span>↗</span></div>
+            <div><strong>Every step has a purpose.</strong><small>School &amp; Boards · Foundation · Exam Preparation</small></div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#programs" aria-label="Scroll to explore programs"><span class="scroll-cue-icon" aria-hidden="true">↓</span><span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section class="value-strip" aria-label="Learning support features">
+      <div class="container value-grid">
+        <div class="value-item"><span class="value-icon" aria-hidden="true">♙</span><div><strong>Expert Faculty</strong><small>Guidance that supports understanding</small></div></div>
+        <div class="value-item"><span class="value-icon" aria-hidden="true">▣</span><div><strong>Study Material</strong><small>Resources that support the plan</small></div></div>
+        <div class="value-item"><span class="value-icon" aria-hidden="true">✓</span><div><strong>Practice &amp; Tests</strong><small>Build confidence through repetition</small></div></div>
+        <div class="value-item"><span class="value-icon" aria-hidden="true">✧</span><div><strong>Academic Guidance</strong><small>Make the next step more informed</small></div></div>
+        <div class="value-item"><span class="value-icon" aria-hidden="true">♡</span><div><strong>Parent Partnership</strong><small>Keep families in the conversation</small></div></div>
+      </div>
+    </section>
+
+    <section class="program-showcase" id="programs" aria-labelledby="programs-title">
+      <div class="container">
+        <div class="program-heading">
+          <div><span class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> FIND YOUR PATHWAY</span><h2 id="programs-title">A complete <span class="text-blue">learning ecosystem.</span></h2></div>
+          <p>Academic support designed around a learner’s current needs and next milestone.</p>
+        </div>
+        <div class="program-grid">
+          <article class="program-card program-card-school reveal">
+            <a class="program-image" href="#admissions" aria-label="Enquire about School Programs"><img src="assets/program-school.jpg" alt="Student learning in a bright classroom" loading="lazy"><span class="program-icon" aria-hidden="true">▤</span></a>
+            <div class="program-card-body"><span class="program-kicker">SCHOOL · FOUNDATION</span><h3>School Programs</h3><p>Build strong concepts and good study habits from the start.</p><div class="program-tags"><span>Class 8–10</span><span>Core Concepts</span></div><a class="text-link enquiry-prefill" data-program="School Programs" href="#admissions">Explore program <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card program-card-board reveal">
+            <a class="program-image" href="#admissions" aria-label="Enquire about State Board, CBSE or ICSE preparation"><img src="assets/program-board.jpg" alt="Student preparing schoolwork and board subjects" loading="lazy"><span class="program-icon" aria-hidden="true">✎</span></a>
+            <div class="program-card-body"><span class="program-kicker">BOARD PREPARATION</span><h3>State Board / CBSE / ICSE</h3><p>Structured revision and guided practice for school assessments.</p><div class="program-tags"><span>State Board</span><span>CBSE</span><span>ICSE</span></div><a class="text-link enquiry-prefill" data-program="State Board / CBSE / ICSE" href="#admissions">Explore program <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card program-card-foundation reveal">
+            <a class="program-image" href="#admissions" aria-label="Enquire about HSC Science"><img src="assets/program-foundation.jpg" alt="Students exploring a hands-on STEM science project" loading="lazy"><span class="program-icon" aria-hidden="true">⚛</span></a>
+            <div class="program-card-body"><span class="program-kicker">HSC · SCIENCE</span><h3>HSC Science</h3><p>Strengthen subject understanding with concept-led practice.</p><div class="program-tags"><span>Science</span><span>Concepts</span><span>Practice</span></div><a class="text-link enquiry-prefill" data-program="HSC Science" href="#admissions">Explore program <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card program-card-exams reveal">
+            <a class="program-image" href="#admissions" aria-label="Enquire about JEE and NEET preparation"><img src="assets/program-exams.jpg" alt="Student working through exam preparation books and notes" loading="lazy"><span class="program-icon" aria-hidden="true">✦</span></a>
+            <div class="program-card-body"><span class="program-kicker">ENTRANCE EXAMS</span><h3>JEE / NEET</h3><p>Build an intentional practice and revision routine.</p><div class="program-tags"><span>JEE</span><span>NEET</span><span>MHT-CET</span></div><a class="text-link enquiry-prefill" data-program="JEE / NEET Preparation" href="#admissions">Explore program <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card program-card-digital reveal">
+            <a class="program-image" href="#admissions" aria-label="Enquire about Robomate Plus digital learning"><img src="assets/program-digital.jpg" alt="Student using a laptop and headphones for digital learning" loading="lazy"><span class="program-icon" aria-hidden="true">▷</span></a>
+            <div class="program-card-body"><span class="program-kicker">DIGITAL LEARNING</span><h3>Robomate+</h3><p>Review lessons and practise with flexible learning support.</p><div class="program-tags"><span>Online</span><span>Revision</span><span>Practice</span></div><a class="text-link enquiry-prefill" data-program="Robomate+ Digital Learning" href="#admissions">Explore program <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="program-card program-card-career reveal">
+            <a class="program-image" href="#admissions" aria-label="Enquire about career guidance"><img src="assets/program-career.jpg" alt="Student discussing future pathways with an academic mentor" loading="lazy"><span class="program-icon" aria-hidden="true">↗</span></a>
+            <div class="program-card-body"><span class="program-kicker">PLAN YOUR NEXT STEP</span><h3>Career Guidance</h3><p>Explore options and understand possible academic pathways.</p><div class="program-tags"><span>Options</span><span>Planning</span></div><a class="text-link enquiry-prefill" data-program="Career Guidance" href="#admissions">Explore program <span aria-hidden="true">→</span></a></div>
+          </article>
+        </div>
+        <p class="program-disclaimer">Program availability, standards, current batches and examination pathways are confirmed by the IntellEducare team when you enquire.</p>
+      </div>
+    </section>
+
+
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="learning-visual reveal" aria-label="Illustration of an interactive learning globe" role="img">
+          <div class="learning-visual-grid" aria-hidden="true"></div><div class="learning-planet" aria-hidden="true"><span class="planet-core">IE</span><span class="planet-ring ring-one"></span><span class="planet-ring ring-two"></span><span class="planet-dot dot-one"></span><span class="planet-dot dot-two"></span></div>
+          <div class="visual-label label-one"><span aria-hidden="true">✧</span><div><strong>Curiosity</strong><small>Ask · Explore</small></div></div>
+          <div class="visual-label label-two"><span aria-hidden="true">✓</span><div><strong>Confidence</strong><small>Practise · Progress</small></div></div>
+          <div class="visual-caption">LEARNING IS A JOURNEY</div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> ABOUT INTELLEDUCARE</span>
+          <h2 id="about-title">Clear concepts. <span class="text-blue">Confident learners.</span></h2>
+          <p>Every learner has a different starting point. IntellEducare’s learning approach is built around clear explanations, guided practice and thoughtful support so students can take their next academic step with purpose.</p>
+          <div class="about-points">
+            <div class="about-point"><span class="point-check" aria-hidden="true">✓</span><div><strong>Understand the basics</strong><p>Build concepts before moving to more complex questions.</p></div></div>
+            <div class="about-point"><span class="point-check" aria-hidden="true">✓</span><div><strong>Practise with a plan</strong><p>Use consistent practice and revision to strengthen learning.</p></div></div>
+            <div class="about-point"><span class="point-check" aria-hidden="true">✓</span><div><strong>Get guidance when needed</strong><p>Help students and parents understand the available next steps.</p></div></div>
+          </div>
+          <a class="button button-navy" href="#approach">Explore Our Approach <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section approach-section" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-heading section-heading-center reveal"><span class="eyebrow"><span class="eyebrow-dot"></span> THE INTELLEDUCARE APPROACH</span><h2 id="approach-title">From learning to <span class="text-blue">lasting confidence.</span></h2><p>A simple rhythm helps learners see what to focus on, how to practise and where to improve.</p></div>
+        <div class="journey-track">
+          <article class="journey-card reveal"><span class="journey-number">01</span><span class="journey-symbol symbol-blue" aria-hidden="true">◈</span><span class="journey-label">UNDERSTAND</span><h3>Build the basics</h3><p>Strengthen core concepts and notice gaps early.</p></article>
+          <article class="journey-card reveal"><span class="journey-number">02</span><span class="journey-symbol symbol-orange" aria-hidden="true">✧</span><span class="journey-label">PRACTISE</span><h3>Apply your learning</h3><p>Use guided exercises to develop accuracy and confidence.</p></article>
+          <article class="journey-card reveal"><span class="journey-number">03</span><span class="journey-symbol symbol-purple" aria-hidden="true">▤</span><span class="journey-label">REVIEW</span><h3>Learn from feedback</h3><p>Review questions, revisit errors and adjust the study plan.</p></article>
+          <article class="journey-card reveal"><span class="journey-number">04</span><span class="journey-symbol symbol-teal" aria-hidden="true">↗</span><span class="journey-label">MOVE AHEAD</span><h3>Prepare for what’s next</h3><p>Make informed choices about the next academic milestone.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="success-section" id="results" aria-labelledby="results-title">
+      <div class="container success-grid">
+        <div class="success-copy reveal"><span class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> STUDENT SUCCESS</span><h2 id="results-title">Every milestone <span class="text-orange">matters.</span></h2><p>Progress can start with a concept finally clicking, a stronger revision routine or the confidence to attempt a challenging question. We believe each step deserves attention.</p><a class="button button-orange" href="#admissions">Start Your Learning Journey <span aria-hidden="true">→</span></a></div>
+        <div class="milestone-panel reveal"><div class="milestone-heading"><span class="milestone-orb" aria-hidden="true">✦</span><div><strong>Progress over time</strong><small>A learning mindset that grows with each step</small></div></div><div class="milestone-list"><div><span>01</span><p><strong>Concept clarity</strong><small>Understand the why, not only the answer.</small></p><b aria-hidden="true">↗</b></div><div><span>02</span><p><strong>Consistent practice</strong><small>Make regular effort part of the routine.</small></p><b aria-hidden="true">↗</b></div><div><span>03</span><p><strong>Thoughtful revision</strong><small>Use feedback to decide what to review next.</small></p><b aria-hidden="true">↗</b></div><div><span>04</span><p><strong>Confident choices</strong><small>Approach the next step with a clearer plan.</small></p><b aria-hidden="true">↗</b></div></div></div>
+      </div>
+    </section>
+
+    <section class="section community-section" aria-labelledby="community-title">
+      <div class="container">
+        <div class="section-heading section-heading-center reveal"><span class="eyebrow"><span class="eyebrow-dot"></span> BEYOND THE CLASSROOM</span><h2 id="community-title">A learning journey built <span class="text-blue">around people.</span></h2><p>Encouragement, communication and healthy learning habits are all part of a supportive educational experience.</p></div>
+        <div class="community-grid">
+          <article class="community-card reveal"><span class="community-icon community-icon-blue" aria-hidden="true">✦</span><h3>Curiosity &amp; discovery</h3><p>Make space for questions, exploration and the joy of understanding something new.</p></article>
+          <article class="community-card reveal"><span class="community-icon community-icon-orange" aria-hidden="true">◎</span><h3>Practice &amp; reflection</h3><p>Help learners reflect on their work and build more useful study routines.</p></article>
+          <article class="community-card reveal"><span class="community-icon community-icon-purple" aria-hidden="true">♡</span><h3>Family partnership</h3><p>Keep parents connected to the learning goals, guidance and next steps.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="centres-section" id="centres" aria-labelledby="centres-title">
+      <div class="container centres-grid">
+        <div class="centres-copy reveal"><span class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> FIND THE RIGHT FIT</span><h2 id="centres-title">Let’s start with <span class="text-orange">your area.</span></h2><p>Tell us where you’re located and what the student is preparing for. Our team can help clarify available programs and centre details.</p><a class="button button-glass" href="#admissions">Ask about centres <span aria-hidden="true">→</span></a></div>
+        <div class="location-visual reveal" aria-hidden="true"><div class="location-grid"></div><div class="location-ring ring-a"></div><div class="location-ring ring-b"></div><div class="location-pin"><span>IE</span></div><span class="location-tag location-tag-one">PROGRAMS</span><span class="location-tag location-tag-two">GUIDANCE</span><span class="location-tag location-tag-three">YOUR NEXT STEP</span></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal"><span class="eyebrow"><span class="eyebrow-dot"></span> FREQUENTLY ASKED QUESTIONS</span><h2 id="faq-title">Good questions deserve <span class="text-blue">clear answers.</span></h2><p>Need something more specific? Send the team your question and preferred program.</p><a class="text-link" href="#admissions">Ask an advisor <span aria-hidden="true">→</span></a></div>
+        <div class="faq-list">
+          <article class="faq-item reveal"><h3><button type="button" class="faq-question" aria-expanded="false"><span>Which boards and standards can I enquire about?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>You can enquire about State Board, ICSE and CBSE pathways. Share the student’s current standard and our team will confirm which programs are currently available.</p></div></article>
+          <article class="faq-item reveal"><h3><button type="button" class="faq-question" aria-expanded="false"><span>Do you offer competitive exam preparation?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>You can ask about foundation support and preparation pathways for exams such as JEE, NEET and MHT-CET. Availability, eligibility and current batches are confirmed by the academic team.</p></div></article>
+          <article class="faq-item reveal"><h3><button type="button" class="faq-question" aria-expanded="false"><span>Can a parent speak with an academic advisor?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Yes. Submit the counselling enquiry form with your preferred contact details and the team can follow up about your question.</p></div></article>
+          <article class="faq-item reveal"><h3><button type="button" class="faq-question" aria-expanded="false"><span>Where can I find fees and batch timings?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Fees, schedules and batch availability can vary by program and location. Enquire directly for the current details rather than relying on outdated information online.</p></div></article>
+          <article class="faq-item reveal"><h3><button type="button" class="faq-question" aria-expanded="false"><span>How do I choose the right program?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Share the student’s standard, board, goals and preferred area in the form. The team can help you understand relevant options and their current availability.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="admissions-section" id="admissions" aria-labelledby="admissions-title">
+      <div class="admissions-background-orb" aria-hidden="true"></div>
+      <div class="container admissions-grid">
+        <div class="admissions-copy reveal"><span class="eyebrow eyebrow-dark"><span class="eyebrow-dot"></span> ADMISSIONS &amp; COUNSELLING</span><h2 id="admissions-title">Your next step starts <span class="text-orange">here.</span></h2><p>Tell us a little about the student and the support you’re looking for. IntellEducare can follow up with relevant information.</p><div class="contact-card"><span class="contact-card-icon" aria-hidden="true">✉</span><div><small>EMAIL OUR TEAM</small><a href="mailto:Info@intelleducare.com">Info@intelleducare.com</a></div></div><p class="response-note">Please use the form for a call-back request, or email us directly.</p></div>
+        <div class="form-card reveal">
+          <div class="form-heading"><div><span class="form-kicker">LET’S CONNECT</span><h3>Request a counselling call</h3><p>Fields marked * are required.</p></div><span class="form-heading-icon" aria-hidden="true">↗</span></div>
+          <form id="enquiryForm" action="/api/enquiry" method="post" novalidate>
+            <div class="honeypot" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+            <div class="form-grid">
+              <div class="field"><label for="fullName">Student / parent name *</label><input id="fullName" name="fullName" type="text" autocomplete="name" minlength="2" maxlength="100" placeholder="Enter full name" required></div>
+              <div class="field"><label for="phone">Mobile number *</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" minlength="10" maxlength="20" placeholder="Enter mobile number" required></div>
+              <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="name@example.com"></div>
+              <div class="field"><label for="standard">Student’s standard</label><select id="standard" name="standard"><option value="">Select standard</option><option>VIII</option><option>IX</option><option>X</option><option>XI</option><option>XII</option><option>Other / Not sure</option></select></div>
+              <div class="field"><label for="board">Board / pathway</label><select id="board" name="board"><option value="">Select option</option><option>State Board</option><option>ICSE</option><option>CBSE</option><option>JEE Foundation / Preparation</option><option>NEET Foundation / Preparation</option><option>MHT-CET</option><option>Learning &amp; revision support</option><option>Need guidance</option></select></div>
+              <div class="field"><label for="area">Preferred area</label><input id="area" name="area" type="text" autocomplete="address-level2" maxlength="120" placeholder="Area or city"></div>
+              <div class="field field-full"><label for="message">How can we help?</label><textarea id="message" name="message" rows="3" maxlength="2000" placeholder="Share your question or learning goal"></textarea></div>
+            </div>
+            <label class="consent-line"><input id="consent" name="consent" type="checkbox" required><span>I agree that IntellEducare may use these details to respond to my enquiry. Please see the <a href="privacy.html" target="_blank" rel="noopener">Privacy Notice</a>.</span></label>
+            <button class="button button-orange submit-button" id="submitButton" type="submit"><span class="submit-label">Send Enquiry</span><span aria-hidden="true">→</span></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-privacy-note">Your enquiry is sent securely through the website service. Please avoid including sensitive personal information.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-about"><a class="brand footer-brand" href="#home"><img src="assets/brand-mark.svg" width="46" height="46" alt="" aria-hidden="true"><span class="brand-copy"><strong>Intell<span>Educare</span></strong><small>LEARN · PREPARE · ACHIEVE</small></span></a><p>Thoughtful teaching, structured practice and academic guidance to help learners move forward with purpose.</p></div>
+      <div class="footer-column"><h3>Explore</h3><a href="#about">About Us</a><a href="#programs">Programs</a><a href="#approach">Our Approach</a><a href="#results">Student Success</a></div>
+      <div class="footer-column"><h3>Help &amp; Guidance</h3><a href="#centres">Centres</a><a href="#faq">FAQs</a><a href="#admissions">Admissions Enquiry</a><a href="#admissions">Book Counselling</a></div>
+      <div class="footer-column footer-contact"><h3>Get in touch</h3><span>Email</span><a class="footer-email" href="mailto:Info@intelleducare.com">Info@intelleducare.com</a><span>Website</span><a href="https://intelleducare.com/">intelleducare.com</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> IntellEducare. All rights reserved.</span><div><a href="privacy.html">Privacy Notice</a><a href="terms.html">Terms of Use</a></div><a class="back-top" href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

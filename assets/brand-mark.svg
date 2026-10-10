@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="IntellEducare mark">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12d9ed"/><stop offset="1" stop-color="#3474ff"/></linearGradient><linearGradient id="o" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffc04f"/><stop offset="1" stop-color="#ff7a20"/></linearGradient></defs>
+  <path d="M9 29 31 12l23 17v20L32 33 9 49Z" fill="url(#b)" opacity=".96"/><path d="M16 31 31 20l16 11-15 11Z" fill="#061329"/><path d="M19 31v13l12 8V39Z" fill="#fff" opacity=".96"/><path d="M31 39v13l14-9V31Z" fill="#c7f5ff"/><circle cx="46" cy="12" r="5" fill="url(#o)"/><path d="m47 1 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#ffc04f" transform="translate(2 2) scale(.7)"/>
+</svg>
