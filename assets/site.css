@@ -296,3 +296,99 @@
 @media (prefers-reduced-motion: reduce) {
   .hero-graduation-cap,.hero-learning-band,.hero-brand-beacon,.hero-float-card { animation: none !important; }
 }
+
+/* Mobile hero: keep hologram labels visible and readable */
+@media (max-width: 700px) {
+  .hero-holo-scene {
+    overflow: hidden;
+  }
+
+  .hero-float-card {
+    display: flex;
+    max-width: 47%;
+    min-width: 0;
+    padding: 5px 7px;
+    gap: 5px;
+    border-radius: 8px;
+    z-index: 7;
+  }
+
+  .hero-float-card strong {
+    font-size: clamp(8px, 2.2vw, 10px);
+    white-space: normal;
+    line-height: 1.2;
+  }
+
+  .hero-float-card small {
+    font-size: clamp(7px, 1.8vw, 9px);
+    white-space: normal;
+    line-height: 1.2;
+  }
+
+  .hero-float-icon {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    font-size: 12px;
+  }
+
+  .hero-float-card--school {
+    left: 2%;
+    top: 12%;
+  }
+
+  .hero-float-card--board {
+    display: flex;
+    right: 2%;
+    left: auto;
+    top: 12%;
+  }
+
+  .hero-float-card--science {
+    display: flex;
+    left: 2%;
+    top: auto;
+    bottom: 12%;
+  }
+
+  .hero-float-card--exams {
+    right: 2%;
+    top: 43%;
+  }
+
+  .hero-float-card--career {
+    display: flex;
+    right: 2%;
+    left: auto;
+    top: auto;
+    bottom: 12%;
+  }
+
+  .hero-learning-band {
+    max-width: 78%;
+    white-space: normal;
+    text-align: center;
+    z-index: 6;
+  }
+
+  .hero-3d-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 410px) {
+  .hero-float-card {
+    max-width: 46%;
+    padding: 4px 5px;
+  }
+
+  .hero-float-card strong {
+    font-size: 8px;
+  }
+
+  .hero-float-card small {
+    font-size: 7px;
+  }
+}

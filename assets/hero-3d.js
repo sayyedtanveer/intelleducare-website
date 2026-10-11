@@ -171,11 +171,15 @@
         root.add(group);
         cards.push(group);
       };
-      if (!mobile()) {
-        addGlassCard(0.435, 0.205, 'HSC Science', 'Concepts and practical learning', 'S', -0.10);
-        addGlassCard(0.855, 0.205, 'Career Guidance', 'Discover your next step', '↗', 0.08);
-      }
+     const isMobile = mobile();
 
+if (isMobile) {
+  addGlassCard(0.30, 0.12, 'HSC Science', 'Concepts and practical learning', 'S', -0.04);
+  addGlassCard(0.72, 0.12, 'Career Guidance', 'Discover your next step', '↗', 0.04);
+} else {
+  addGlassCard(0.435, 0.205, 'HSC Science', 'Concepts and practical learning', 'S', -0.10);
+  addGlassCard(0.855, 0.205, 'Career Guidance', 'Discover your next step', '↗', 0.08);
+}
       host.classList.add('hero-3d-ready');
       const clock = new THREE.Clock();
       const animate = () => {
